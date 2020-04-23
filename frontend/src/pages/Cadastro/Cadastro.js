@@ -5,9 +5,9 @@ import './Cadastro.css';
 class Cadastro extends Component {
     render() {
         return (
-            <div className="cadastro-container">
+            <div className="cadastro container">
                 <div className="row">
-                    <h3>Cadastro</h3>
+                    <h3 className="main">Cadastro</h3>
                     <div className="container"> 
                         <h5 className="texto">Em construção.</h5>
                     </div>

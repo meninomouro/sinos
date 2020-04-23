@@ -1,30 +1,39 @@
 import React, { Component } from 'react';
 import {NavLink, Link} from 'react-router-dom';
+import {Navbar, Nav} from 'react-bootstrap';
 import '../../global.css';
 import './Navbar.css';
 import logonav from '../../assets/logo-nav.png';
 
-class Navbar extends Component {
+class NavBar extends Component {
     render() {
         return (
-            <nav className="navBar">
-                <Link to="/">
+            <>
+            <Navbar>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ml-auto">
+                    <ul id="nav-mobile" className="right hide-on-med-and-down">
+                        <li><NavLink className="link" to="/about/">O PROJETO</NavLink></li>
+                        <li><NavLink className="link" to="/programacao/">PROGRAMAÇÃO</NavLink></li>
+                        <li><NavLink className="link" to="/publicacoes/">PUBLICAÇÕES</NavLink></li>
+                        <li><NavLink className="link" to="/noticias/">NOTÍCIAS</NavLink></li>
+                        <li><NavLink className="link" to="/multimidia/">MULTIMÍDIA</NavLink></li>
+                        <li><NavLink className="link" to="/parcerias/">PARCERIAS</NavLink></li>
+                        <li><NavLink className="link" to="/contato/">CONTATO</NavLink></li>
+                        <li><NavLink className="link" to="/login/">LOGIN</NavLink></li>             
+                    </ul>
+                    </Nav>
+                </Navbar.Collapse>
+                <Link to="/" className="logo">
                 <img src={logonav} alt="Logo" className="brand-logo"/>
                 </Link>
-                <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    <li><NavLink to="/about/">O Projeto</NavLink></li>
-                    <li><NavLink to="/programacao/">Programação</NavLink></li>
-                    <li><NavLink to="/publicacoes/">Publicações</NavLink></li>
-                    <li><NavLink to="/noticias/">Notícias</NavLink></li>
-                    <li><NavLink to="/multimidia/">Multimídia</NavLink></li>
-                    <li><NavLink to="/parcerias/">Parcerias</NavLink></li>
-                    <li><NavLink to="/contato/">Contato</NavLink></li>
-                    <li><NavLink to="/login/">Login</NavLink></li>             
-                </ul>
-            </nav>
+            </Navbar>
+            </>
+
             
         );
     }
   }
   
-  export default Navbar; 
+  export default NavBar; 

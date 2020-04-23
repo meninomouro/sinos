@@ -11,9 +11,9 @@ export default function Contato() {
 
     
     return (
-        <div className="contato-container">
+        <div className="contato container">
             <div className="row">
-                <h3>Contato</h3>
+                <h3 className="main">Contato</h3>
                 <div className="container">
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <h6 className="campos">Nome</h6>

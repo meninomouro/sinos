@@ -1,13 +1,7 @@
 .row {
     align-items: center;
-    vertical-align: middle;
     display: block;
     text-align: center;
-}
-
-.row>img {
-    height: 30vh;
-    margin-top: 5vh;
 }
 
 .title {

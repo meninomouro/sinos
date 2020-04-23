@@ -1,19 +1,43 @@
-.navBar {
-    background-color: #d8423c;
+.navbar {
+    background-color: white;
+    -webkit-box-shadow: 0px 2px 2px -2px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 2px 2px -2px rgba(0,0,0,1);
+    box-shadow: 0px 2px 2px -2px rgba(0,0,0,1);
+    float: left;
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top: 0;
+
 }
 
 #nav-mobile li {
-    color: white;
+    display: inline-block;
+    margin-right: 2vw;
+    margin-top: 3vh;
+    height: 90px;
+}
+.link {
+    height: 90px;
+    text-decoration: inherit;
     font-family: 'Barlow', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    color: #d8423c;
+    text-align: center;
 }
 
 #nav-mobile {
-    margin-right: 5vh;
+    margin-left: 7vw;
+}
+
+.logo {
+    position: absolute;
+    right: 7vw;
+    top: 10px;
 }
 
 .brand-logo {
-    height: 50px;
+    height: 60px;
     margin-left: 2vh;
     margin-right: 2vh;
     margin-top: 1vh;
@@ -34,6 +58,24 @@
     .brand-logo {
         margin: 0;
         margin-top: 0.5vh;
+    }
+
+    .navbar {
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    #nav-mobile {
+        margin-left: 15vw;
+    }
+
+    .logo {
+        right: 15vw;
     }
 
 }

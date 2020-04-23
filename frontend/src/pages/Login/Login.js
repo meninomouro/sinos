@@ -18,7 +18,7 @@ export default function Login() {
   
     return (
         <div className="container">
-            <h3 className="center-align">Login</h3>
+            <h3 className="center-align main">Login</h3>
             <div className="Login">
                 <form onSubmit={handleSubmit}>
                 <FormGroup controlId="email" bsSize="large">
@@ -43,7 +43,7 @@ export default function Login() {
                 </Button>
                 </form>
                 <div className="cadastro">
-                    <h6>Ainda não é cadastrado? <Link to="/cadastro">Clique aqui</Link>.</h6>     
+                    <h6>Ainda não é cadastrado? <Link className="link" to="/cadastro">Clique aqui</Link>.</h6>     
                 </div>
             </div>
         </div>

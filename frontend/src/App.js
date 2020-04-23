@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
 import './global.css';
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
+import NavBar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Programacao from './pages/Programacao/Programacao';
@@ -19,7 +19,7 @@ import Cadastro from './pages/Cadastro/Cadastro';
         return (
           <BrowserRouter>
           <div className="App">
-            <Navbar/>
+            <NavBar/>
             <Switch>
               <Route exact path="/" component={Home}/>
               <Route path="/about" component={About}/>

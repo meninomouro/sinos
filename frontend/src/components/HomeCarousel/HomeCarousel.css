@@ -1,0 +1,59 @@
+.thumbs-wrapper, .carousel-status {
+    display: none;
+}
+
+.carousel .slide {
+    position: relative;
+}
+
+.carousel {
+    position: relative;
+}
+
+.animated {
+    height: 100% !important;
+}
+
+.legend {
+    width: 100% !important;
+    left: 0 !important;
+    margin-left: 0 !important;
+    border-radius: 0 !important;
+    font: 600 30px 'Barlow', sans-serif !important;
+    padding: 5vh !important;
+    transition: none !important;
+    opacity: 1 !important;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .carousel {
+        height: 90vh;
+    }
+
+    .carousel img, .carousel .slide img {
+        height: 90vh;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+
+    .carousel {
+        height: 50vh;
+    }
+
+    .carousel img, .carousel .slide img {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+
+    .carousel {
+        height: 30vh;
+    }
+
+    .carousel img, .carousel .slide img {
+        height: 30vh;
+    }
+}

@@ -1,0 +1,18 @@
+.texto {
+    margin-top: 3vh;
+}
+
+.btn-block {
+    display: inline-block !important;
+    background-color: navy;
+    margin-top: 2vh;
+}
+
+.campos {
+    text-align: left !important;
+}
+
+textarea {
+    min-height: 15vh;
+    width: 100%;
+}

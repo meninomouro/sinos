@@ -7,8 +7,8 @@ class Noticias extends Component {
         return (
             <div className="not container">
                 <div className="row">
-                    <h3 className="main">Notícias</h3>
                     <div className="container"> 
+                        <h3 className="title">Notícias</h3>
                         <h5 className="texto">Fique por dentro de tudo o que acontece no Sinos e saiba também das novidades que vêm por aí. Em breve.</h5>
                     </div>
                 </div>

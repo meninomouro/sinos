@@ -13,8 +13,8 @@ export default function Contato() {
     return (
         <div className="contato container">
             <div className="row">
-                <h3 className="main">Contato</h3>
                 <div className="container">
+                    <h3 className="title">Contato</h3>
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <h6 className="campos">Nome</h6>
                         <input type="text" placeholder="Nome" name="Nome" ref={register({required: true, maxLength: 200})} />

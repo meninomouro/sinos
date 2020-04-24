@@ -1,17 +1,51 @@
+.red {
+    height: 465px !important;
+    width: 30% !important;
+    background-color: #d8423c;
+    z-index: 3 !important;
+}
+
 .row {
-    align-items: center;
-    display: block;
-    text-align: center;
+    display: flex !important;
 }
 
-.row>img {
-    height: 40vh;
-    margin-top: 5vh;
+.text {
+    text-align: left !important;
+    color: white;
+    margin-left: 3vw;
+    margin-top: 225px;
+    bottom: 0 !important;
 }
 
+.login {
+    font: 200 35px 'Barlow', sans-serif !important;
+    margin-bottom: 4vh;
+}
 
-@media only screen and (max-width: 700px) {
-    .row>img {
-        height: 20vh;
-    }
+.acesso {
+    font: 200 14px 'Barlow', sans-serif !important;
+    margin-bottom: 4vh;
+}
+
+.field {
+    margin-bottom: 1vh;
+}
+
+.cadastro {
+    font: 200 14px 'Barlow', sans-serif !important;
+}
+
+.link-cadastro {
+    color: white !important;
+    font: inherit;
+}
+
+.btn {
+    background-color: white;
+    color: #d8423c;
+    border-radius: 50%;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2vh;
 }

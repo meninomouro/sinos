@@ -7,8 +7,8 @@ class Programacao extends Component {
         return (
             <div className="prog container">
                 <div className="row">
-                    <h3 className="main">Programação</h3>
                     <div className="container"> 
+                        <h3 className="title">Programação</h3>
                         <h5 className="texto">Em breve, você encontrará aqui a relação completa dos cursos e demais atividades online disponíveis no Sinos.</h5>
                     </div>
                 </div>

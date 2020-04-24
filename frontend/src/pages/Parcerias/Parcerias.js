@@ -7,8 +7,8 @@ class Parcerias extends Component {
         return (
             <div className="parc container">
                 <div className="row">
-                    <h3 className="main">Parcerias</h3>
                     <div className="container"> 
+                        <h3 className="title">Parcerias</h3>
                         <h5 className="texto">Conheça aqui todos os parceiros envolvidos na produção e realização do Sinos. Em breve.</h5>
                     </div>
                 </div>

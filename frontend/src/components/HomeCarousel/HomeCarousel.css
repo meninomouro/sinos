@@ -2,16 +2,25 @@
     display: none;
 }
 
-.carousel .slide {
-    position: relative;
-    bottom: 0 !important;
+.carousel {
+    height: 0px !important;
 }
 
-.carousel, .carousel-slider {
+.carousel-root {
     position: relative;
     width: 70% !important;
     height: 465px !important;
-    bottom: 0 !important;
+    margin-right: 0 !important;
+}
+
+.carousel-slider {
+    margin-bottom: 0 !important;
+    height: 465px !important;
+}
+
+.control-dots {
+    width: auto !important;
+    right: 1vw !important;
 }
 
 .img {

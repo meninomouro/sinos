@@ -7,8 +7,8 @@ class Cadastro extends Component {
         return (
             <div className="cadastro container">
                 <div className="row">
-                    <h3 className="main">Cadastro</h3>
-                    <div className="container"> 
+                    <div className="container">
+                        <h3 className="title">Cadastro</h3> 
                         <h5 className="texto">Em construção.</h5>
                     </div>
                 </div>

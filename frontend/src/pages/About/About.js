@@ -8,8 +8,8 @@ function About() {
     return (
       <div className="home container">
         <div className="row">
-        <h3 className="main title">O Projeto</h3>
           <div className="container"> 
+            <h3 className="title">O Projeto</h3>
             <h5>Ao longo de um ano, uma rede composta por mais de 250 profissionais de música vai atuar em oficinas, aulas e na preparação de concertos. As atividades se iniciam exclusivamente online, mas em uma segunda etapa, serão levadas presencialmente a diversos pontos do Brasil. O objetivo é capacitar regentes, instrumentistas, compositores e educadores musicais, dando apoio a orquestras jovens ligadas a projetos sociais e instituições de ensino e, também, contribuir para a implantação de orquestras escola em todo o país. O programa Sinos – Sistema Nacional de Orquestras Sociais é uma parceria entre a <a className="link" href="https://www.funarte.gov.br/" target="_blank">Fundação Nacional de Artes – Funarte</a> e a <a className="link" href="https://ufrj.br/" target="_blank">Universidade Federal do Rio de Janeiro - UFRJ</a>.
             <br/>
             <br/>

@@ -7,8 +7,8 @@ class Publicacoes extends Component {
         return (
             <div className="pub container">
                 <div className="row">
-                    <h3 className="main">Publicações</h3>
                     <div className="container"> 
+                        <h3 className="title">Publicações</h3>
                         <h5 className="texto">Em breve, você encontrará aqui, em formato PDF, todo o material didático, as partituras e demais publicações do Sinos para download gratuito.</h5>
                     </div>
                 </div>

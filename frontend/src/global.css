@@ -21,22 +21,19 @@ input, button, textarea {
     font: 400 18px 'Barlow', sans-serif;
 }
 
-.main {
-    margin-top: 120px !important;
-    font-size: 1.2em;
-}
-
 .container {
-    margin-left: 4vw;
-    margin-right: 4vw;
+    margin: 0 !important;
+    width: 80% !important;
+    padding-left: 20% !important;
+    padding-right: 20% !important;
     font-size: 1.2em;
 }
 
 @media only screen and (min-width: 1200px) {
 
     .container {
-        margin-left: 7vw;
-        margin-right: 7vw;
+        padding-left: 7vw !important;
+        padding-right: 7vw !important;
     }
 
 }
@@ -45,4 +42,8 @@ input, button, textarea {
     text-decoration: inherit;
     color: #d8423c;
     font: inherit;
+}
+
+.row {
+    text-align: center;
 }

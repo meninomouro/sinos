@@ -1,3 +1,14 @@
 .texto {
     margin-top: 3vh;
 }
+
+.row {
+    align-items: center;
+    display: block;
+    text-align: center !important;
+}
+
+.title {
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}

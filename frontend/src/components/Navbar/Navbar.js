@@ -20,8 +20,7 @@ class NavBar extends Component {
                         <li><NavLink className="link" to="/noticias/">NOTÍCIAS</NavLink></li>
                         <li><NavLink className="link" to="/multimidia/">MULTIMÍDIA</NavLink></li>
                         <li><NavLink className="link" to="/parcerias/">PARCERIAS</NavLink></li>
-                        <li><NavLink className="link" to="/contato/">CONTATO</NavLink></li>
-                        <li><NavLink className="link" to="/login/">LOGIN</NavLink></li>             
+                        <li><NavLink className="link" to="/contato/">CONTATO</NavLink></li>      
                     </ul>
                     </Nav>
                 </Navbar.Collapse>

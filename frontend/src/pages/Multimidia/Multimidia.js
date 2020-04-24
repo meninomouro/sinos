@@ -7,8 +7,8 @@ class Multimidia extends Component {
         return (
             <div className="multi container">
                 <div className="row">
-                    <h3 className="main">Multimídia</h3>
                     <div className="container"> 
+                        <h3 className="title">Multimídia</h3>
                         <h5 className="texto">Em breve, você verá aqui em fotos, gravações e vídeos tudo o que acontece no Sinos.</h5>
                     </div>
                 </div>

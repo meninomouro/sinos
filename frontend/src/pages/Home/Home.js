@@ -35,7 +35,9 @@ function Home() {
         <div className="red">
             <div className="text">
               <h5 className="login">FAÇA LOGIN</h5>
-              <p className="acesso">Tenha acesso às aulas virtuais e painel do estudante</p>
+              <p className="acesso">Tenha acesso às aulas virtuais
+              <br/>
+              e painel do estudante</p>
               <form onSubmit={handleSubmit}>
                 <FormGroup className="field" controlId="email" bsSize="large">
                     <FormControl

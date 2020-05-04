@@ -13,6 +13,7 @@ body {
     margin-top: 90px;
 }
 
+
 button {
     cursor: pointer;
 }
@@ -22,20 +23,8 @@ input, button, textarea {
 }
 
 .container {
-    margin: 0 !important;
-    width: 80% !important;
-    padding-left: 20% !important;
-    padding-right: 20% !important;
+    width: 100% !important;
     font-size: 1.2em;
-}
-
-@media only screen and (min-width: 1200px) {
-
-    .container {
-        padding-left: 7vw !important;
-        padding-right: 7vw !important;
-    }
-
 }
 
 .container>.link {
@@ -45,5 +34,7 @@ input, button, textarea {
 }
 
 .row {
+    align-items: center;
+    display: block;
     text-align: center;
 }

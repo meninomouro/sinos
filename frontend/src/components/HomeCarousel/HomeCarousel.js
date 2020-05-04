@@ -14,8 +14,7 @@ class HomeCarousel extends Component {
                     <h5 className="legend">BEM-VINDO AO SITE DO SINOS!
                     <br/>
                     <br/>
-                    <br/>
-                    <span className="text">O Sinos é um programa com atividades online e presenciais, que capacita professores e músicos em projetos sociais e instituições de ensino, promovendo a formação de novas orquestras e concertos em diversos pontos do país</span>. </h5>
+                    <span className="text-legend">O Sinos é um programa com atividades online e presenciais, que capacita professores e músicos em projetos sociais e instituições de ensino, promovendo a formação de novas orquestras e concertos em diversos pontos do país</span>. </h5>
                 </div>
             </Carousel>
         );

@@ -1,0 +1,83 @@
+html,
+body,
+.wrapper {
+  min-height: 535px;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.content {
+  flex: 1;
+}
+
+.bloco {
+    height: 125px;
+    font: 200 14px 'Barlow', sans-serif !important;
+    padding-top: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.apoio {
+    padding-top: 10px;
+}
+
+.funarte, .ufrj {
+    position: absolute;
+    margin-bottom: 0;
+}
+
+.brand-logo {
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-top: 1vh;
+}
+
+.ufrj {
+    right: 25vw;
+}
+
+.funarte {
+    left: 25vw;
+}
+
+.ufrj-logo {
+    height: 60px;
+}
+
+.funarte-logo {
+    height: 50px;
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+
+    .ufrj {
+        right: 15vw;
+    }
+    
+    .funarte {
+        left: 15vw;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .ufrj {
+        right: 5vw;
+    }
+    
+    .funarte {
+        left: 5vw;
+    }
+
+    .brand-logo {
+        height: 40px;
+    }
+
+}

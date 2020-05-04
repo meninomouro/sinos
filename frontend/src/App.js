@@ -3,6 +3,7 @@ import {BrowserRouter,Route,Switch} from 'react-router-dom';
 import './global.css';
 import './App.css';
 import NavBar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Programacao from './pages/Programacao/Programacao';
@@ -18,7 +19,8 @@ import Cadastro from './pages/Cadastro/Cadastro';
     render() {
         return (
           <BrowserRouter>
-          <div className="App">
+          <div className="App wrapper">
+            <div className="content">
             <NavBar/>
             <Switch>
               <Route exact path="/" component={Home}/>
@@ -32,6 +34,8 @@ import Cadastro from './pages/Cadastro/Cadastro';
               <Route path="/login" component={Login}/>
               <Route path="/cadastro" component={Cadastro}/>
             </Switch>
+            </div>
+            <Footer/>
           </div>
           </BrowserRouter>
         );

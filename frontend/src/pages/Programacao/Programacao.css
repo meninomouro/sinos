@@ -2,10 +2,10 @@
     margin-top: 3vh;
 }
 
-.row {
-    align-items: center;
-    display: block;
-    text-align: center;
+.prog {
+    width: 80% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
 }
 
 .title {

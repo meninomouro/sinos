@@ -37,16 +37,24 @@
     margin-left: 0 !important;
     border-radius: 0 !important;
     top: 10vh !important;
-    height: 120px !important;
+    height: 170px !important;
     font: 300 16px 'Barlow', sans-serif !important;
     transition: none !important;
     opacity: 0.6 !important;
     color: white !important;
-    line-height: 0.6em !important;
+    line-height: 0.9em !important;
 }
 
-.text {
+.text-legend {
     font: 300 12px 'Barlow', sans-serif !important;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .legend {
+        height: 130px !important;
+    }
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -60,7 +68,7 @@
     }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 999px) {
+@media only screen and (min-width: 701px) and (max-width: 999px) {
 
     .carousel {
         height: 50vh;
@@ -68,10 +76,15 @@
 
     .carousel img, .carousel .slide img {
         height: 50vh;
+    }
+
+    .legend {
+        height: 125px !important;
+        width: 60% !important;
     }
 }
 
-@media only screen and (max-width: 699px) {
+@media only screen and (max-width: 700px) {
 
     .carousel {
         height: 30vh;
@@ -79,5 +92,14 @@
 
     .carousel img, .carousel .slide img {
         height: 30vh;
+    }
+
+    .carousel-root {
+        width: 100% !important;
+    }
+
+    .legend {
+        width: 90% !important;
+        height: 120px !important;
     }
 }

@@ -13,7 +13,7 @@
     text-align: left !important;
     color: white;
     margin-left: 3vw;
-    margin-top: 225px;
+    margin-top: 200px;
     bottom: 0 !important;
 }
 
@@ -48,4 +48,22 @@
     width: 20px;
     height: 20px;
     margin-bottom: 2vh;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .red {
+        width: 100% !important;
+        height: 275px !important;
+        padding-top: 25px !important;
+    }
+
+    .row {
+        display: block !important;
+    }
+
+    .text {
+        margin-top: 0px !important;
+    }
+
 }

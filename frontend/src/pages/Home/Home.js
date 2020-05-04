@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../../global.css';
 import './Home.css';
+import api from '../../services/api'
 import {Link} from 'react-router-dom';
 import { Button, FormGroup, FormControl } from "react-bootstrap";
 import HomeCarousel from '../../components/HomeCarousel/HomeCarousel';
@@ -13,8 +14,18 @@ function Home() {
     return email.length > 0 && password.length > 0;
   }
 
-  function handleSubmit(event) {
+  async function handleSubmit(event) {
     event.preventDefault();
+
+    try{
+      const response = await api.post('sessions', { email, password })
+      console.log(response.status)
+      alert("Login efetuado com sucesso!")
+      
+      } catch(err){
+      console.log(err, 401)
+      alert('Falha no login')
+      }
   }
 
   return (

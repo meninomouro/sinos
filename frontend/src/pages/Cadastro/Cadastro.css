@@ -1,14 +1,80 @@
-.texto {
+.register-container{
+    display:flex;
+    margin-top: 20vh;
+    margin-left: 8vh;
+
+}
+input{
+    border-radius: 5px;
+    padding: 6px;
+
+    font-size: 0.9em;
+}
+.register-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 1px solid;
+    border-radius: 8px;
+    
+}
+.register-container .container h3{
+    margin-left: 27vh;
+    margin-bottom: 10vh;
+}
+.register-container .container form{
+    display: inline-block;
+    margin-bottom: 15vh;
+    padding: 30px;
+}
+.register-container .container form .main-content{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 10px;
+  
+    margin-top: 3vh;
+    margin-left: 3vh;
+}
+
+.register-container .container form .projeto-social,
+.register-container .container form .universitario,
+.register-container .container form .orquestra,
+.register-container .container form .professor{
+    display: none;
+    grid-template-columns: 200px 200px;
+    gap: 10px;
+
+    margin-left: 4.5vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.register-container .container form .radio-group h4{
+    margin-left: 4vh;
     margin-top: 3vh;
 }
-
-.row {
-    align-items: center;
-    display: block;
-    text-align: center !important;
+.register-container .container form .how{
+    display: inline-block;
+    margin-top: 2vh;
 }
-
-.title {
+.register-container .container form .how h4,
+.register-container .container form .how #como{
+    margin-left: 4vh;
+    margin-top: 3vh;
+}
+.register-container .container form .how #como{
+    margin-right: 2vh;
+}
+.register-container .container form .radio-group label{
+    margin-left: 4vh;
+}
+.register-container .container textarea{
     margin-top: 5vh;
-    margin-bottom: 3vh;
 }
+.register-container .container h4{
+    margin-top: 2vh;
+}
+
+
+

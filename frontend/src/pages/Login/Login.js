@@ -1,6 +1,7 @@
 import React, { Component, useState } from 'react';
 import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
 import {Link} from 'react-router-dom';
+import api from '../../services/api'
 import '../../global.css';
 import './Login.css';
 
@@ -12,8 +13,18 @@ export default function Login() {
       return email.length > 0 && password.length > 0;
     }
   
-    function handleSubmit(event) {
+    async function handleSubmit(event) {
       event.preventDefault();
+
+      try{
+        const response = await api.post('sessions', { email, password })
+        console.log(response.status)
+        alert("Login efetuado com sucesso!")
+        
+        } catch(err){
+        console.log(err, 401)
+        alert('Falha no login')
+        }
     }
   
     return (

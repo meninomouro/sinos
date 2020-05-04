@@ -40,7 +40,7 @@ export default function Cadastro() {
             <div className="register-container">
                 <div className="container">
                     <form>
-                        <h3>Cadastre-se</h3>
+                        <h2>Cadastre-se</h2>
                         <div className="main-content">
                             <input type="text" placeholder="Nome"/>
                             <input type="text" placeholder="E-mail"/>
@@ -125,9 +125,11 @@ export default function Cadastro() {
                          Outros:<input type="text"/>
                          </div>
                          <h4>Qual o seu principal objetivo com o conteúdo oferecido pelo SINOS?*</h4>
-                         <textarea id="about" rows="4" cols="10">
-
+                         <textarea id="about" rows="4" cols="10">   
                          </textarea>
+                         <button type="submit">
+                             Efetuar cadastro
+                         </button>
 
                     </form>
                 </div>

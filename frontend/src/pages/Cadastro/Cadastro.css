@@ -72,8 +72,24 @@ input{
 .register-container .container textarea{
     margin-top: 5vh;
 }
-.register-container .container h4{
+.register-container .container h2{
     margin-top: 2vh;
+    margin-left: 25vh;
+}
+
+.register-container button{
+    width: 200px;
+    height: 60px;
+    margin-top: 3vh;
+    background-color: brown;
+    color: white;
+    border-radius: 7px;
+
+    transition: 0.8s;
+}
+.register-container button:hover{
+    background-color: white;
+    color: brown;
 }
 
 

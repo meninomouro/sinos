@@ -86,7 +86,7 @@
 
 .left-infos {
     margin-top: 1vh;
-    border-right: 1px solid #ede6d9;
+    border-right: 1px solid darkgray;
 }
 
 .left-infos>h5 {
@@ -98,7 +98,7 @@
 
 .right-infos {
     margin-top: 1vh;
-    border-right: 1px solid #ede6d9;
+    border-right: 1px solid darkgray;
 }
 
 .eventname {

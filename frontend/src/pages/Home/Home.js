@@ -5,6 +5,7 @@ import api from '../../services/api'
 import {Link} from 'react-router-dom';
 import { Button, FormGroup, FormControl } from "react-bootstrap";
 import HomeCarousel from '../../components/HomeCarousel/HomeCarousel';
+import HomeCalendar from '../../components/HomeCalendar/HomeCalendar';
 
 function Home() {
   const [email, setEmail] = useState("");
@@ -67,6 +68,12 @@ function Home() {
                   <h6 className="cadastro">Ainda não é cadastrado? <Link className="link link-cadastro" to="/cadastro">Clique aqui</Link>.</h6>     
               </div>
             </div>
+        </div>
+      </div>
+      <div className="row">
+        <HomeCalendar />
+        <div className="eventlist">
+
         </div>
       </div>
     </div>

@@ -117,6 +117,7 @@ export default function Cadastro() {
                          <div className="how">
                              <h4>Como conheceu o projeto?</h4>
                             <select id="como">
+                             <option disabled selected>Opções:</option>
                              <option value="Redes sociais">Redes sociais</option>
                              <option value="Sites de busca">Sites de busca</option>
                              <option value="Amigos">Amigos</option>

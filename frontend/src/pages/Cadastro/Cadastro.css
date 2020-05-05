@@ -1,6 +1,5 @@
 .register-container{
     display:flex;
-    margin-top: 20vh;
     margin-left: 8vh;
 
 }
@@ -14,9 +13,6 @@ input{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    border: 1px solid;
-    border-radius: 8px;
     
 }
 .register-container .container h3{
@@ -25,7 +21,7 @@ input{
 }
 .register-container .container form{
     display: inline-block;
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
     padding: 30px;
 }
 .register-container .container form .main-content{

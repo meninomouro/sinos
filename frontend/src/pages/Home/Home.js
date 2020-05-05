@@ -57,7 +57,7 @@ function Home() {
                     type="password"
                     />
                 </FormGroup>
-                <Button block bsSize="large" disabled={!validateForm()} type="submit">
+                <Button block bsSize="large" className="botao-login" disabled={!validateForm()} type="submit">
                 <svg class="bi bi-arrow-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L12.793 8l-2.647-2.646a.5.5 0 010-.708z" clip-rule="evenodd"/>
                   <path fill-rule="evenodd" d="M2 8a.5.5 0 01.5-.5H13a.5.5 0 010 1H2.5A.5.5 0 012 8z" clip-rule="evenodd"/>
@@ -73,7 +73,96 @@ function Home() {
       <div className="row">
         <HomeCalendar />
         <div className="eventlist">
-
+          <div className="eventitem">
+            <h1 className="dia">25</h1>
+            <div className="left-infos">
+              <h5 className="mes-ano">junho, 2020</h5>
+              <h5 className="horario">14h00</h5>
+              <h5 className="local">Plataforma virtual</h5>
+            </div>
+            <div className="right-infos">
+              <h4 className="eventname">Aula para instrumentos de corda - teoria musical II</h4>
+              <h4 className="prof-info">Nome do professor | Outra informação</h4>
+            </div>
+            <div className="inscricao">
+              <Button block bsSize="large" className="botao-inscricao" type="submit">
+                <Link className="link-inscricao" to="/cadastro">Inscreva-se</Link>
+              </Button>
+            </div>
+          </div>
+          <hr />
+          <div className="eventitem">
+            <h1 className="dia">25</h1>
+            <div className="left-infos">
+              <h5 className="mes-ano">junho, 2020</h5>
+              <h5 className="horario">14h00</h5>
+              <h5 className="local">Plataforma virtual</h5>
+            </div>
+            <div className="right-infos">
+              <h4 className="eventname">Aula para instrumentos de corda - teoria musical II</h4>
+              <h4 className="prof-info">Nome do professor | Outra informação</h4>
+            </div>
+            <div className="inscricao">
+              <Button block bsSize="large" className="botao-inscricao" type="submit">
+                <Link className="link-inscricao" to="/cadastro">Inscreva-se</Link>
+              </Button>
+            </div>
+          </div>
+          <hr />
+          <div className="eventitem">
+            <h1 className="dia">25</h1>
+            <div className="left-infos">
+              <h5 className="mes-ano">junho, 2020</h5>
+              <h5 className="horario">14h00</h5>
+              <h5 className="local">Plataforma virtual</h5>
+            </div>
+            <div className="right-infos">
+              <h4 className="eventname">Aula para instrumentos de corda - teoria musical II</h4>
+              <h4 className="prof-info">Nome do professor | Outra informação</h4>
+            </div>
+            <div className="inscricao">
+              <Button block bsSize="large" className="botao-inscricao" type="submit">
+                <Link className="link-inscricao" to="/cadastro">Inscreva-se</Link>
+              </Button>
+            </div>
+          </div>
+          <hr />
+          <div className="eventitem">
+            <h1 className="dia">25</h1>
+            <div className="left-infos">
+              <h5 className="mes-ano">junho, 2020</h5>
+              <h5 className="horario">14h00</h5>
+              <h5 className="local">Plataforma virtual</h5>
+            </div>
+            <div className="right-infos">
+              <h4 className="eventname">Aula para instrumentos de corda - teoria musical II</h4>
+              <h4 className="prof-info">Nome do professor | Outra informação</h4>
+            </div>
+            <div className="inscricao">
+              <Button block bsSize="large" className="botao-inscricao" type="submit">
+                <Link className="link-inscricao" to="/cadastro">Inscreva-se</Link>
+              </Button>
+            </div>
+          </div>
+          <hr />
+          <div className="eventitem">
+            <h1 className="dia">25</h1>
+            <div className="left-infos">
+              <h5 className="mes-ano">junho, 2020</h5>
+              <h5 className="horario">14h00</h5>
+              <h5 className="local">Plataforma virtual</h5>
+            </div>
+            <div className="right-infos">
+              <h4 className="eventname">Aula para instrumentos de corda - teoria musical II</h4>
+              <h4 className="prof-info">Nome do professor | Outra informação</h4>
+            </div>
+            <div className="inscricao">
+              <Button block bsSize="large" className="botao-inscricao" type="submit">
+                <Link className="link-inscricao" to="/cadastro">Inscreva-se</Link>
+              </Button>
+            </div>
+          </div>
+          <hr />
         </div>
       </div>
     </div>

@@ -24,6 +24,30 @@
         font: 200 25px 'Barlow', sans-serif !important;
         text-align: left !important;
     }
+
+    .bloco-legenda {
+        background-color: white;
+        padding-top: 5vh;
+        display: inline-flex;
+        padding-bottom: 7vh;
+    }
+
+    .graphic {
+        width: 10%;
+        margin-top: 2px;
+    }
+
+    .legenda {
+        width: 85%;
+    }
+
+    .legenda>h4 {
+        margin: 0;
+        font: 400 13px 'Barlow', sans-serif !important;
+        text-align: right !important;
+        color: #d8423c;
+        margin-top: 1vh;
+    }
   
     .calendar-container {
         display: flex;
@@ -58,13 +82,17 @@
         text-decoration: inherit !important;
     }
 
-    .react-calendar__navigation>*, .react-calendar__month-view__days>* {
+    .react-calendar__navigation>*, .react-calendar__month-view__days>*, .react-calendar__year-view__months>*, .react-calendar__decade-view__years>*, .react-calendar__century-view__decades>* {
         background-color: inherit;
         border: none;
     }
 
-    .react-calendar__month-view__days>* {
+    .react-calendar__month-view__days>*, .react-calendar__year-view__months>*, .react-calendar__decade-view__years>*, .react-calendar__century-view__decades>* {
         color: #d8423c;
+    }
+
+    .react-calendar__navigation>* {
+        color: black;
     }
 
     .proglink {
@@ -73,11 +101,39 @@
         font: 300 16px 'Barlow', sans-serif !important;
     }
 
-    @media only screen and (min-width: 701px) and (max-width: 1199px) {
+    .foo {
+        float: right;
+        width: 17px !important;
+        height: 17px !important;
+        margin-top: 6px;
+    }
+    
+    .blue {
+        background: darkblue;
+    }
 
-        header {
-            margin-top: -100px !important;
+    .green {
+        background: green;
+    }
+
+    .gold {
+        background: gold;
+    }
+    
+    .purple {
+        background: purple;
+    }
+    
+    .wine {
+        background: darkred;
+    }
+
+    @media only screen and (min-width: 1000px) and (max-width: 1199px) {
+
+        .calendar {
+            margin-top: -14vh;
         }
+
     }
 
     @media only screen and (min-width: 1200px) {
@@ -86,8 +142,16 @@
             font: 200 35px 'Barlow', sans-serif !important;
         }
 
-        header {
-            margin-top: -124px !important;
+        .calendar {
+            margin-top: -20vh;
+        }
+
+        .foo {
+            margin-top: 8px !important;
+        }
+
+        .legenda>h4 {
+            font: 400 15px 'Barlow', sans-serif !important;
         }
     
     }
@@ -96,8 +160,14 @@
 
         .calendar {
             width: 30%;
+            margin-left: 0 !important;
+            margin-top: -26vh;
         }
-        
+
+        .foo {
+            margin-top: 4px;
+        }
+
     }
 
     @media only screen and (max-width: 700px) {

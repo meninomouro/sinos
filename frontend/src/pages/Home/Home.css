@@ -13,7 +13,7 @@
     text-align: left !important;
     color: white;
     margin-left: 3vw;
-    margin-top: 200px;
+    margin-top: 190px;
     bottom: 0 !important;
 }
 
@@ -40,7 +40,7 @@
     font: inherit;
 }
 
-.btn {
+.botao-login {
     background-color: white;
     color: #d8423c;
     border-radius: 50%;
@@ -48,6 +48,69 @@
     width: 20px;
     height: 20px;
     margin-bottom: 2vh;
+}
+
+.inscricao {
+    margin-left: 2vw;
+    margin-right: 1vw;
+}
+
+.botao-inscricao {
+    background-color: #d8423c;
+    padding: 7px;
+    border: 0;    
+    margin-top: 2vh;
+}
+
+.link-inscricao {
+    text-decoration: inherit;
+    color: white;
+    font: 200 16px 'Barlow', sans-serif !important; 
+    padding-bottom: 2vh;
+}
+
+.eventlist {
+    margin-left: 3vw;
+}
+
+.eventitem {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+
+.eventitem>h1 {
+    font: 200 37px 'Barlow', sans-serif !important;  
+    margin-top: 1vh;
+}
+
+.left-infos {
+    margin-top: 1vh;
+    border-right: 1px solid #ede6d9;
+}
+
+.left-infos>h5 {
+    font: 200 12px 'Barlow', sans-serif !important; 
+    text-align: left; 
+    margin-left: 1vw;
+    margin-right: 3vw;
+}
+
+.right-infos {
+    margin-top: 1vh;
+    border-right: 1px solid #ede6d9;
+}
+
+.eventname {
+    margin-top: -1px !important;
+}
+
+.right-infos>h4 {
+    font: 300 15px 'Barlow', sans-serif !important; 
+    text-align: left; 
+    margin-left: 2vw;
+    margin-top: 1vh;
+    margin-right: 5vw;
 }
 
 @media only screen and (max-width: 700px) {
@@ -66,4 +129,39 @@
         margin-top: 0px !important;
     }
 
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+
+    .left-infos>h5 {
+        font: 200 10px 'Barlow', sans-serif !important; 
+    }
+    
+    .mes-ano {
+        margin-top: 1vh;
+    }
+
+    .right-infos>h4 {
+        font: 300 12px 'Barlow', sans-serif !important; 
+    }
+
+}
+
+@media only screen and (min-width: 701px) and (max-width: 999px) {
+    
+    .right-infos>h4 {
+        margin-right: 1vh !important;
+    }
+
+    .left-infos>h5 {
+        margin-right: 1vh !important;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
+    
+    .eventlist {
+        margin-top: -10vh;
+    }
 }
